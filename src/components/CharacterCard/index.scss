@@ -1,0 +1,14 @@
+@import '@lumx/core/scss/lumx-theme-lumapps.scss';
+
+.character__card {
+  display: flex;
+  border-width: 3px;
+  border-style: solid;
+  border-color: lumx-color-variant('dark', 'N');
+}
+
+.character__column {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,14 @@
+.pagination__container {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+.pagination__page {
+  padding: 0 5px;
+}
+
+.pagination__active {
+  font-weight: bold;
+}
